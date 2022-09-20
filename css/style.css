@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&family=Radio+Canada:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    min-height: 100vh;
+    background-color: #fff;
+
+}
+header .head{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.logo a{
+    text-decoration: none;
+    color: #0c1720;
+    font-weight: 800;
+    font-size: 2em;
+
+}
+header .head .menue ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 20px;
+}
+header .head .menue ul li{
+    list-style: none;
+}
+header .head .menue ul li a{
+    text-decoration: none;
+    color: #0c1720;
+    padding: 2px 6px;
+    font-weight: 500;
+    border-radius: 20px;
+}
+header .head .menue ul li a:hover,
+header .head .menue ul li .active{
+    background: #0c1720;
+    color: #fff;
+}
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.parallax img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+#text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #0c1720;
+}
+.sec {
+    position: relative;
+    background-color: #112434;
+    padding: 100px;
+    color: #000;
+}
+.sec h2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.sec p{
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+@media (max-width: 600px) {
+    /* body {
+        background: #f00;
+        color: #fff;
+    } */}
+
+    /* Media For Desktop */
+
+@media (min-width: 1201px) {
+    /* body {
+        background: #000;
+        color: #fff;
+    } */
+}
+
+/* Media For Ipad */
+@media (min-width: 601px) and (max-width: 1200px) {
+    /* body {
+        background: #00f;
+        color: #fff;
+    } */}
+    

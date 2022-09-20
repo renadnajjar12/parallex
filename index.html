@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+  <header>
+<div class="head">
+  <div class="logo"><a href="#">Logo</a></div>
+  <div class="menue">
+    <ul>
+      <li><a href="#" class="active" >Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Contacts</a></li>
+    </ul>
+  </div>
+</div>
+
+  </header>
+  <section class="parallax">
+    <h2 id="text">Parallex Website</h2>
+    <img src="image/monutain_01.png" alt="m" id="m1">
+    <img src="image/trees_02.png" alt="m" id="t2">
+    <img src="image/monutain_02.png" alt="m" id="m2">
+    <img src="image/trees_01.png" alt="m" id="t1">
+    <img src="image/man.png" alt="m" id="m">
+    <img src="image/plants.png" alt="m" id="plants">
+  </section>
+
+
+  <section class="sec">
+    <h2>parallax scrolling Website</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Vero perferendis eius consequatur nobis ratione alias eos 
+        saepe mollitia pariatur. Distinctio odio quis, ullam itaque
+        dolorem cupiditate quo atque dignissimos error sequi nulla 
+        ex rem fugit neque debitis a architecto recusandae. 
+        Tempore sequi possimus inventore similique, optio cum, <br><br>
+        soluta nemo maxime repellendus officia sapiente maiores eligendi
+          saepe quidem voluptatem in repellat autem explicabo aliquam repudiandae enim quasi ab?
+          At ab laboriosam nobis rem doloribus est architecto alias consequatur aliquid voluptatem, eius libero,
+            nam sit deserunt ducimus? Velit libero, hic ex odit voluptate soluta atque modi nostrum rem et maxime dignissimos, eius architecto nam at nisi exercitationem quasi quia earum asperiores animi! In eius voluptates fugiat adipisci eaque officiis optio impedit officia, quasi obcaecati ratione, itaque, recusandae perspiciatis voluptatem minus reiciendis quaerat quibusdam ipsum excepturi pariatur unde. 
+            Fuga blanditiis aperiam quas sed, dolores reprehenderit! Commodi labore odit distinctio ducimus quae in quod eveniet. Cupiditate corporis excepturi vero alias! Amet ad inventore veritatis in nulla! Harum non sunt optio laboriosam sapiente sint, iusto suscipit minus consectetur obcaecati atque fugit. 
+      Dolore quo voluptate possimus!</p>
+  </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+<script>
+  gsap.from("#m1",{
+    scrollTrigger:{
+      scrub:true
+    },
+    y:100,
+
+  })
+  gsap.from("#m2",{
+    scrollTrigger:{
+      scrub:true
+    },
+    y:50,
+
+  })
+  gsap.from("#t2",{
+    scrollTrigger:{
+      scrub:true
+    },
+    x:-50,
+
+  })
+  gsap.from("#t1",{
+    scrollTrigger:{
+      scrub:true
+    },
+    x:50,
+
+  })
+  gsap.from("#m",{
+    scrollTrigger:{
+      scrub:true
+    },
+    x:-250,
+
+  })
+  gsap.from("#plants",{
+    scrollTrigger:{
+      scrub:true
+    },
+    x:-50,
+
+  })
+  gsap.from("#text",{
+    scrollTrigger:{
+      scrub:true
+    },
+    x:600,
+
+  })
+</script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/script.js"></script>
+  </body>
+</html>
